@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background_black"
+    tools:context=".SignUp.SignUpSucceed">
+
+    <ImageView
+        android:id="@+id/iv_sus_1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/ic_baseline_check_circle_24"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_sus_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/sign_up_succeed"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_sus_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/sign_up_succeed_1"
+        android:gravity="center"
+        android:textColor="@color/hint_grey"
+        />
+
+    <Button
+        android:id="@+id/btn_go_to_login"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_shape"
+        android:text="GO TO Sign In"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>

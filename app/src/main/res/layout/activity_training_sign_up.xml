@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:background="@color/background_black"
+    tools:context=".SignUp.TrainingSignUp">
+
+    <ImageView
+        android:id="@+id/iv_training_user_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/et_training_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:hint="First name"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColorHint="@color/hint_grey"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_username"
+
+
+
+            />
+        <EditText
+            android:id="@+id/et_training_2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Last name"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColorHint="@color/hint_grey"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_username"
+            android:layout_marginLeft="2dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_training_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email address"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="textEmailAddress"
+        />
+
+
+
+    <EditText
+        android:id="@+id/et_training_6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone number"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="phone"
+
+        />
+
+    <EditText
+        android:id="@+id/et_training_7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Director name"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+
+        />
+
+    <EditText
+        android:id="@+id/et_training_8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Company"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+
+        />
+
+    <EditText
+        android:id="@+id/et_training_9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Australian Business Number"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+
+        />
+
+
+    <EditText
+        android:id="@+id/et_training_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="textPassword"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/et_training_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm password"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:id="@+id/btn_training_signup"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Sign Up"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        />
+
+    <TextView
+        android:id="@+id/tv_training_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/account_remind"
+        android:textColor="@color/hint_grey"
+        android:textSize="13dp"
+
+        />
+
+</LinearLayout>

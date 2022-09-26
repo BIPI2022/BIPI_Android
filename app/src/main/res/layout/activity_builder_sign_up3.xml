@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background_black"
+    tools:context=".SignUp.BuilderSignUp3">
+
+    <ImageView
+        android:id="@+id/iv_builder_user_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/choose_skill"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/choose_skill_1"
+        android:textColor="@color/hint_grey"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiles"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Painting"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+    <CheckBox
+        android:id="@+id/cb_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brick Layer"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Woodworking"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electrician"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porter"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:gravity="center_vertical"
+        android:textColor="@color/hint_grey"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+
+        android:background="@drawable/bg_username"
+        />
+
+    <Button
+        android:id="@+id/btn_builder_signup"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Sign Up"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/account_remind"
+        android:textColor="@color/hint_grey"
+        android:textSize="13dp"
+
+        />
+
+
+
+</LinearLayout>

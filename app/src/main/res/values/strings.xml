@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BIPI</string>
+    <string name="sign_up_succeed">Sign up was successful</string>
+    <string name="sign_up_succeed_1">You can start using BIPI now</string>
+    <string name="account_remind">Already hava an account? Sign in</string>
+    <string name="choose_skill">Choose your skills</string>
+    <string name="choose_skill_1">Please check the skills you have</string>
+
+</resources>

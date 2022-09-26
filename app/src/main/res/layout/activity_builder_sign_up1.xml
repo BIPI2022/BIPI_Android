@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background_black"
+    tools:context=".SignUp.BuilderSignUP1">
+
+    <ImageView
+        android:id="@+id/iv_builder_user_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/et_builder_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:hint="First name"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColorHint="@color/hint_grey"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_username"
+
+
+
+            />
+        <EditText
+            android:id="@+id/et_builder_2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Last name"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:textColorHint="@color/hint_grey"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_username"
+            android:layout_marginLeft="2dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_builder_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email address"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/et_builder_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone number"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+        android:inputType="phone"
+
+        />
+
+    <EditText
+        android:id="@+id/et_builder_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Home address"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_username"
+
+        />
+
+    <Button
+        android:id="@+id/btn_builder_next"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Next"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/account_remind"
+        android:textColor="@color/hint_grey"
+        android:textSize="13dp"
+        />
+
+</LinearLayout>

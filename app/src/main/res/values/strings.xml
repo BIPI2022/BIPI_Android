@@ -5,5 +5,53 @@
     <string name="account_remind">Already hava an account? Sign in</string>
     <string name="choose_skill">Choose your skills</string>
     <string name="choose_skill_1">Please check the skills you have</string>
+    <string name="title_activity_project">Project</string>
+    <string name="title_home">Home</string>
+    <string name="title_project">Project</string>
+    <string name="project1">Barton Apartment \nComplex</string>
+    <string name="project2">Turner Apartment \nPrecinct</string>
+    <string name="project3">Cook Housing \nDevelopment</string>
+    <string name="invoice_number_title">Invoice number</string>
+
+    <string-array name="invoice_date">
+        <item>APR 27</item>
+        <item>APR 28</item>
+        <item>APR 29</item>
+        <item>APR 30</item>
+        <item>MAY 01</item>
+        <item>MAY 02</item>
+        <item>MAY 03</item>
+    </string-array>
+    <string-array name="invoice_week">
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+    </string-array>
+    <string-array name="invoice_number">
+        <item>00000001</item>
+        <item>00000002</item>
+        <item>00000003</item>
+        <item>00000004</item>
+        <item>00000005</item>
+        <item>00000006</item>
+        <item>00000007</item>
+    </string-array>
+
+    <string-array name="invoice_status">
+        <item>Approved</item>
+        <item>Approved</item>
+        <item>Approved</item>
+        <item>Approved</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+        <item>Rejected</item>
+    </string-array>
+
+
+
 
 </resources>

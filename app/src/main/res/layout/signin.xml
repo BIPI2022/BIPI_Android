@@ -27,6 +27,7 @@
         android:text="BuildItPayIt"
         android:textColor="@color/white"
         android:textSize="35sp"
+
         />
 
     <EditText
@@ -41,6 +42,7 @@
         android:textColor="@color/white"
         android:background="@drawable/bg_username"
 
+
         />
     <EditText
         android:id="@+id/et_2"
@@ -54,6 +56,7 @@
         android:inputType="textPassword"
         android:textColor="@color/white"
         android:background="@drawable/bg_username"
+        android:fontFamily="@font/sans_serif"
 
 
         />
@@ -67,6 +70,7 @@
         android:text="Sign In"
         android:textColor="@color/white"
         android:background="@drawable/button_shape"
+        android:fontFamily="@font/sans_serif"
 
 
         />
@@ -80,6 +84,7 @@
         android:text="Or Don't hava a account?"
         android:textColor="@color/hint_grey"
         android:textSize="13dp"
+        android:fontFamily="@font/sans_serif"
 
         />
 
@@ -92,6 +97,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:background="@drawable/button_shape"
+        android:fontFamily="@font/sans_serif"
 
 
         />
@@ -105,6 +111,7 @@
         android:text="By proceeding you also agree to the Terms of Service \n and Privacy Policy"
         android:textColor="@color/hint_grey"
         android:textSize="13dp"
+        android:fontFamily="@font/sans_serif"
 
         />
 

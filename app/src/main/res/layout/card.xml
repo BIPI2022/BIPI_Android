@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardCornerRadius="15dp"
+    app:cardElevation="20dp"
+    android:layout_margin="10dp"
+    >
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/card_background"
+        >
+
+
+
+            <TextView
+                android:id="@+id/card_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/project1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:singleLine="false"
+                android:ellipsize="none"
+                android:maxLines="5"
+                android:inputType="textMultiLine"
+                />
+
+
+            <TextView
+                android:id="@+id/card_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                android:text=" In progress"
+                android:textSize="13dp"
+                android:textColor="@color/hint_grey"
+
+
+                />
+
+        <ImageView
+            android:id="@+id/card_iv1"
+            android:layout_width="117dp"
+            android:layout_height="111dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="240dp"
+
+
+            android:layout_marginEnd="-2dp"
+            android:src="@drawable/project1" />
+
+
+    </RelativeLayout>
+
+
+
+    
+
+
+
+</androidx.cardview.widget.CardView>

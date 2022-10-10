@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black"
+    tools:context=".Invoice.AddInvoice">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/add_invoice_appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ToolBar widget -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_invoice_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/add_invoice_TEXTView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:text="Invoice"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            android:textStyle="bold"
+
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/Add_TEXTView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="Save"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/add_invoice_toolbar"
+            tools:ignore="MissingConstraints"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+            >
+
+            <TextView
+                android:id="@+id/add_invoice_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="60dp"
+                android:padding="10dp"
+                android:text="From :"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:id="@+id/add_invoice_et_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:ems="14"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/add_invoice_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:padding="10dp"
+                android:text="Bill to :"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/add_invoice_et_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:ems="14"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:padding="10dp"
+
+
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/add_invoice_tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="180dp"
+                android:padding="10dp"
+                android:text="Invoice date :"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:id="@+id/add_invoice_et_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:ems="12"
+                android:gravity="center"
+                android:hint="Select date"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_grey" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Item name :"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/add_invoice_et_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="12"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            />
+
+        />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Price :"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/add_invoice_et_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:ems="14"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:inputType="number"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="290dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+                android:text="QTY :"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/add_invoice_et_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="15"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="620dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Subtotal: "
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:enabled="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_username"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="400dp"
+
+
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:id="@+id/tb1"
+            android:padding="10dp"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tb_row1"
+
+                >
+                <TextView
+                    android:id="@+id/item_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item name"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:id="@+id/item_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:id="@+id/item_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="QTY"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:id="@+id/item_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="@color/white"
+                    />
+            </TableRow>
+
+
+
+        </TableLayout>
+    </LinearLayout>
+
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/add_item"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/add_item_bg"
+            android:scaleType="fitCenter"
+
+            />
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/add_invoice_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="@color/orange"
+        android:theme="@style/footButton"
+        />
+
+
+
+</RelativeLayout>

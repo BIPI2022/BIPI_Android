@@ -11,6 +11,7 @@
     <color name="background_black">#383838</color>
     <color name="orange">#f28500</color>
     <color name="hint_grey">#aaaaaa</color>
+    <color name="card_background">#717171</color>
 
 
 </resources>
